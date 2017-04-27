@@ -5,6 +5,7 @@
         "es6": true,
         "node": true
     },
+    "parser": "babel-eslint",
     "plugins": ["react"],
     "parserOptions": {
         "ecmaFeatures": {
@@ -21,7 +22,6 @@
         "react/jsx-uses-react": "error",
         "react/jsx-uses-vars": "error",
         "constructor-super": "warn",
-        "valid-typeof": "warn",
-        "indent": "warn"
+        "valid-typeof": "warn"
     }
 }
